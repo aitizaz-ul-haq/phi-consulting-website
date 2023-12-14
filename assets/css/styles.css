@@ -335,9 +335,7 @@ header {
     box-shadow: 0px 0px 17px -2px var(--WHITE-TEXT);
 }
 
-.hero {
-    /* width: 200%; */
-}
+
 
 .hero-container {
     position: relative;
