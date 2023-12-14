@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="ATZ" />
+    <meta name="description" conatent="phi consulting buisness consulting" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phi Consulting | Services</title>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+    <link
+      rel="shortcut icon"
+      href="../assets/img/phi_logo.webp"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Homepage -->
+
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <a href="../index.html"
+          ><img class="logo-image" src="../assets/img/phi_logo.webp" alt="Logo"
+        /></a>
+      </div>
+      <div class="buttons">
+        <div class="dropdown">
+          <a href="../main_pages/services.html" class="dropdown-btn"
+            ><span class="dropdown-btn">Services</span></a
+          >
+          <div class="dropdown-content">
+            <a href="../sub_pages/sales_consulting.html">Sales Consulting</a>
+            <a href="../sub_pages/buisness_consulting.html"
+              >Buisness Consulting</a
+            >
+            <a href="../sub_pages/financial_consulting.html"
+              >Financial Consulting</a
+            >
+            <a href="../sub_pages/hr_and_recruitment_consulting.html"
+              >HR & Recruitment Consulting</a
+            >
+            <a href="../sub_pages/customer_experience_consulting.html"
+              >Customer Experience Consulting</a
+            >
+          </div>
+        </div>
+
+        <!-- <span>Services</span> -->
+        <span
+          ><a href="../main_pages/our_work.html" class="inner-header"
+            >Our Work</a
+          ></span
+        >
+        <span
+          ><a href="../main_pages/about_us.html" class="inner-header"
+            >About Us</a
+          ></span
+        >
+        <span
+          ><a href="../main_pages/blog.html" class="inner-header">Blog</a></span
+        >
+        <span
+          ><a href="../main_pages/careers.html" class="inner-header"
+            >Careers</a
+          ></span
+        >
+      </div>
+      <div class="right-button-header">
+        <span
+          ><a href="../main_pages/contacts.html" class="inner-header"
+            >Contact Us</a
+          ></span
+        >
+      </div>
+    </header>
+
+    <header class="mobile-header">
+      <div class="logo">
+        <img
+          src="../assets/img/phi_logo-filled.png"
+          alt=""
+          width="55"
+          height="55"
+        />
+      </div>
+      <button class="menu-toggle" onclick="toggleMenu()">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      </button>
+      <div class="overlay-rock" id="overlay-rock" onclick="closeMenu()"></div>
+      <nav class="mobile-menu" id="mobile-menu">
+        <ul>
+          <li>
+            <a
+              href="../index.html"
+              class="header-mobile-links"
+              onclick="closeMenu()"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="../main_pages/our_work.html"
+              class="header-mobile-links"
+              onclick="closeMenu()"
+              >Our Work</a
+            >
+          </li>
+          <li>
+            <a
+              href="../main_pages/services.html"
+              class="header-mobile-links"
+              onclick="closeMenu()"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="../main_pages/about_us.html"
+              class="header-mobile-links"
+              onclick="closeMenu()"
+              >About Us</a
+            >
+          </li>
+          <li>
+            <a
+              href="../main_pages/blog.html"
+              class="header-mobile-links"
+              onclick="closeMenu()"
+              >Blogs</a
+            >
+          </li>
+          <li>
+            <a
+              href="../main_pages/careers.html"
+              class="header-mobile-links"
+              onclick="closeMenu()"
+              >Careers</a
+            >
+          </li>
+          <li>
+            <a
+              href="../main_pages/contacts.html"
+              class="header-mobile-links"
+              onclick="closeMenu()"
+              >Contact us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Hero Section -->
+      <article class="hero">
+        <section class="hero-container-services">
+          <div class="hero-content-services-page">
+            <h2 class="hero-heading-services-page">
+              Drive Growth and Excellence with Phi Consulting
+            </h2>
+            <p class="hero-desc-services-page">
+              Unlock the full potential of your business with Phi Consulting's
+              comprehensive suite of services. From Sales and Business
+              Consulting to Financial, HR & Recruitment, and Customer Experience
+              Consulting, we are your strategic partner for navigating
+              challenges and achieving sustainable success.
+            </p>
+            <div class="consult-button-services-page">
+              Schedule a Free Consultation
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <!-- Services page section one strategic solutions -->
+      <article class="strategic-solutions">
+        <h2 class="strategic-heading">
+          Strategic Solutions Tailored to Your Needs
+        </h2>
+        <div class="services-banner-container">
+          <div class="card-row-top">
+            <div class="card-service-show">
+              <div class="circleBasetwo typetwo">
+                <img
+                  src="../assets/img/white_icons/sales.png"
+                  alt=""
+                  width="100"
+                  height="100"
+                  class="icon-adjuster"
+                />
+              </div>
+              <h3 class="card-present-title">Sales Consulting</h3>
+              <div class="card-present-desc">
+                Scale your sales operations with precision and excellence,
+                targeting the right customers and optimizing sales cycles.
+              </div>
+            </div>
+            <div class="card-service-show">
+              <div class="circleBasetwo typetwo">
+                <img
+                  src="../assets/img/white_icons/business.png"
+                  alt=""
+                  width="100"
+                  height="100"
+                  class="icon-adjuster"
+                />
+              </div>
+              <h3 class="card-present-title">Business Consulting</h3>
+              <div class="card-present-desc">
+                Navigate challenges, optimize strategies, and achieve
+                sustainable growth with our proven expertise.
+              </div>
+            </div>
+            <div class="card-service-show">
+              <div class="circleBasetwo typetwo">
+                <img
+                  src="../assets/img/white_icons/financial (2).png"
+                  alt=""
+                  width="100"
+                  height="100"
+                  class="icon-adjuster"
+                />
+              </div>
+              <h3 class="card-present-title">Financial Consulting</h3>
+              <div class="card-present-desc">
+                Drive profitability and fiscal responsibility through strategic
+                financial guidance.
+              </div>
+            </div>
+          </div>
+          <div class="card-row-top">
+            <div class="card-service-show">
+              <div class="circleBasetwo typetwo">
+                <img
+                  src="../assets/img/white_icons/human-resources.png"
+                  alt=""
+                  width="100"
+                  height="100"
+                  class="icon-adjuster"
+                />
+              </div>
+              <h3 class="card-present-title">HR & Recruitment Consulting</h3>
+              <div class="card-present-desc">
+                Build a dynamic and skilled workforce with our specialized HR
+                solutions.
+              </div>
+            </div>
+            <div class="card-service-show">
+              <div class="circleBasetwo typetwo">
+                <img
+                  src="../assets/img/white_icons/customer-experience.png"
+                  alt=""
+                  width="100"
+                  height="100"
+                  class="icon-adjuster"
+                />
+              </div>
+              <h3 class="card-present-title">Customer Experience Consulting</h3>
+              <div class="card-present-desc">
+                Optimize customer interactions for enhanced satisfaction and
+                operational efficiency.
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Section path  -->
+      <article class="path">
+        <section class="path-container">
+          <h2 class="path-heading">A Proven Path to Success</h2>
+          <div class="process-container">
+            <div class="circle-container">
+              <div class="circle-content">
+                <div class="icon-process-container">
+                  <img
+                    src="../assets/img/process_icons/goal.png"
+                    alt=""
+                    width="60px"
+                    height="60px"
+                  />
+                </div>
+                <h2 class="circle-heading">Define Your Goals</h2>
+                <h3 class="circle-text">
+                  We kick off our partnership by understanding your unique
+                  challenges, aspirations, and opportunities.
+                </h3>
+              </div>
+            </div>
+            <div class="circle-container">
+              <div class="circle-content">
+                <div class="icon-process-container">
+                  <img
+                    src="../assets/img/process_icons/plan.png"
+                    alt=""
+                    width="60px"
+                    height="60px"
+                  />
+                </div>
+                <h2 class="circle-heading">Plan & Map Your Process</h2>
+                <h3 class="circle-text">
+                  Crafting a tailored roadmap is key to success.
+                </h3>
+              </div>
+            </div>
+            <div class="circle-container">
+              <div class="circle-content">
+                <div class="icon-process-container">
+                  <img
+                    src="../assets/img/process_icons/action.png"
+                    alt=""
+                    width="60px"
+                    height="60px"
+                  />
+                </div>
+                <h2 class="circle-heading">Set Actions</h2>
+                <h3 class="circle-text">
+                  Define clear and actionable steps that propel your strategy
+                  forward.
+                </h3>
+              </div>
+            </div>
+            <div class="circle-container">
+              <div class="circle-content">
+                <div class="icon-process-container">
+                  <img
+                    src="../assets/img/process_icons/assign.png"
+                    alt=""
+                    width="60px"
+                    height="60px"
+                  />
+                </div>
+                <h2 class="circle-heading">Assign Stakeholders</h2>
+                <h3 class="circle-text">
+                  Ensure a unified and accountable effort by assigning
+                  stakeholders to each action.
+                </h3>
+              </div>
+            </div>
+            <div class="circle-container">
+              <div class="circle-content">
+                <div class="icon-process-container">
+                  <img
+                    src="../assets/img/process_icons/test.png"
+                    alt=""
+                    width="60px"
+                    height="60px"
+                  />
+                </div>
+                <h2 class="circle-heading">Test the Process</h2>
+                <h3 class="circle-text">
+                  Before full implementation, we rigorously test the devised
+                  strategies.
+                </h3>
+              </div>
+            </div>
+            <div class="circle-container">
+              <div class="circle-content">
+                <div class="icon-process-container">
+                  <img
+                    src="../assets/img/process_icons/implement.png"
+                    alt=""
+                    width="60px"
+                    height="60px"
+                  />
+                </div>
+                <h2 class="circle-heading">Implement the Process</h2>
+                <h3 class="circle-text">
+                  With a well-tested plan in place, we move to implementation.
+                </h3>
+              </div>
+            </div>
+            <div class="circle-container">
+              <div class="circle-content">
+                <div class="icon-process-container">
+                  <img
+                    src="../assets/img/process_icons/monitor.png"
+                    alt=""
+                    width="60px"
+                    height="60px"
+                  />
+                </div>
+                <h2 class="circle-heading">Monitor the Results</h2>
+                <h3 class="circle-text">
+                  We don't stop at implementation. Continuous monitoring of
+                  results is integral to our process.
+                </h3>
+              </div>
+            </div>
+            <div class="circle-container">
+              <div class="circle-content">
+                <div class="icon-process-container">
+                  <img
+                    src="../assets/img/process_icons/improve.png"
+                    alt=""
+                    width="60px"
+                    height="60px"
+                  />
+                </div>
+                <h2 class="circle-heading">Make Improvements</h2>
+                <h3 class="circle-text">
+                  Based on monitored results, we identify areas for improvement.
+                </h3>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <!-- Work small version Section -->
+      <article class="work">
+        <section class="work-section">
+          <h2 class="work-heading">Our Work</h2>
+          <p class="work-desc">
+            Our hands-on approach ensures that startups and SMEs thrive in
+            building their consumer base. From launching new products to
+            improving existing ones, we are ready to roll up our sleeves and
+            help you achieve your goals.
+          </p>
+          <div class="work-row">
+            <div class="work-card">
+              <div class="work-card-image-container">
+                <img
+                  src="../assets/img/atob-card.png"
+                  alt=""
+                  width="250"
+                  height="250"
+                />
+              </div>
+              <div class="logo-work-card-container">
+                <img
+                  src="../assets/img/comp_logos/AToB-square.jpg"
+                  alt=""
+                  width="60"
+                  height="60"
+                />
+              </div>
+              <h3 class="work-card-heading">Lorem ipsum dolor sit amet</h3>
+              <p class="work-card-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ad
+                libero ipsa accusantium et itaque,
+              </p>
+              <div class="right-button-work-small">
+                <span>Explore More</span>
+              </div>
+            </div>
+            <div class="work-card">
+              <div class="work-card-image-container">
+                <img
+                  src="../assets/img/digitalocean-product.png"
+                  alt=""
+                  width="250"
+                  height="250"
+                />
+              </div>
+              <div class="logo-work-card-container">
+                <img
+                  src="../assets/img/comp_logos/digitalocean-square.png"
+                  alt=""
+                  width="60"
+                  height="60"
+                />
+              </div>
+              <h3 class="work-card-heading">Lorem ipsum dolor sit amet</h3>
+              <p class="work-card-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ad
+                libero ipsa accusantium et itaque,
+              </p>
+              <div class="right-button-work-small">
+                <span>Explore More</span>
+              </div>
+            </div>
+            <div class="work-card">
+              <div class="work-card-image-container">
+                <img
+                  src="../assets/img/truckx-case.png"
+                  alt=""
+                  width="250"
+                  height="250"
+                />
+              </div>
+              <div class="logo-work-card-container">
+                <img
+                  src="../assets/img/comp_logos/truck-square.png"
+                  alt=""
+                  width="60"
+                  height="60"
+                />
+              </div>
+              <h3 class="work-card-heading">Lorem ipsum dolor sit amet</h3>
+              <p class="work-card-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ad
+                libero ipsa accusantium et itaque,
+              </p>
+              <div class="right-button-work-small">
+                <span>Explore More</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="right-button spacing-under">
+            <span>View More Case Studies</span>
+          </div>
+        </section>
+      </article>
+
+      <!-- Call to Action Section -->
+      <article class="cta-container">
+        <section class="cta-sections-container">
+          <div class="cta-content">
+            <div class="cta-heading">Ready to Scale Your Buisness</div>
+            <div class="cta-descrip">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
+              repellendus et nobis dolorem repudiandae assumenda magnam
+              voluptatibus eum incidunt, aliquam ipsum rerum repellat. Sint amet
+              earum in a temporibus laborum. Dolores cumque ex nesciunt iusto
+              qui, recusandae quae. Eos corrupti excepturi mollitia amet
+              officiis optio, aliquam saepe pariatur iure. Corporis saepe,
+              blanditiis fugiat dignissimos suscipit beatae minima nostrum eaque
+              amet.
+            </div>
+          </div>
+          <div class="cta-button-section">
+            <div class="right-button-header">
+              <span
+                ><a href="../main_pages/contacts.html" class="inner-header"
+                  >Contact Us</a
+                ></span
+              >
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <!-- Testimonial Section -->
+      <article class="testimonial">
+        <section class="testimonial-container">
+          <h2 class="testi-heading">What Our Clients Say About Us</h2>
+          <p class="testi-desc">
+            Our clients speak for the transformative impact of Phi Consulting.
+            <br />
+            Here's what they have to say about their experiences partnering with
+            us:
+          </p>
+        </section>
+
+        <section class="testi-cards-container">
+          <div class="testi-card">
+            <div class="circleBase type3 testi-one">
+              <!-- <img src="./assets/img/testimonial_one.webp" alt="" /> -->
+            </div>
+
+            <p class="testi-quote">
+              <q
+                ><i
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quibusdam atque iste aut magni harum nobis quasi impedit enim
+                  laborum distinctio, accusamus ducimus dolorem illum, mollitia
+                  aperiam deserunt voluptate quaerat totam!</i
+                ></q
+              >
+            </p>
+            <h3 class="testi-card-heading">-Rob Robinson (CEO)</h3>
+          </div>
+
+          <div class="testi-card">
+            <div class="circleBase type3 test-two">
+              <img src="" alt="" />
+            </div>
+
+            <p class="testi-quote">
+              <q
+                ><i
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quibusdam atque iste aut magni harum nobis quasi impedit enim
+                  laborum distinctio, accusamus ducimus dolorem illum, mollitia
+                  aperiam deserunt voluptate quaerat totam!</i
+                ></q
+              >
+            </p>
+            <h3 class="testi-card-heading">-lenny pepridge (CTO)</h3>
+          </div>
+
+          <div class="testi-card">
+            <div class="circleBase type3 test-three">
+              <img src="" alt="" />
+            </div>
+
+            <p class="testi-quote">
+              <q
+                ><i
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quibusdam atque iste aut magni harum nobis quasi impedit enim
+                  laborum distinctio, accusamus ducimus dolorem illum, mollitia
+                  aperiam deserunt voluptate quaerat totam!</i
+                ></q
+              >
+            </p>
+            <h3 class="testi-card-heading">-linda bigaloo (finance)</h3>
+          </div>
+        </section>
+      </article>
+
+      <article class="achievement">
+        <section class="achievement-section">
+          <h2 class="ach-heading-services-page">Our Achievements</h2>
+          <p class="ach-desc-services-page">
+            Explore Phi Consulting's hall of achievements <br />– where revenue
+            surges, operational efficiency peaks, and client success stories
+            converge, defining a legacy of transformative impact.
+          </p>
+        </section>
+        <section class="ach-badges-container">
+          <div class="ach-badge">
+            <img
+              src="../assets/img/achievements-badges/clutch_1.png"
+              alt=""
+              width="200"
+              height="230"
+            />
+          </div>
+          <div class="ach-badge">
+            <img
+              src="../assets/img/achievements-badges/BBB.png"
+              alt=""
+              width="200"
+              height="150"
+            />
+          </div>
+
+          <div class="ach-badge">
+            <img
+              src="../assets/img/achievements-badges/clutch_2.png"
+              alt=""
+              width="250"
+              height="220"
+            />
+          </div>
+
+          <div class="ach-badge">
+            <img
+              src="../assets/img/achievements-badges/clutch_1.png"
+              alt=""
+              width="200"
+              height="230"
+            />
+          </div>
+          <div class="ach-badge">
+            <img
+              src="../assets/img/achievements-badges/BBB.png"
+              alt=""
+              width="200"
+              height="150"
+            />
+          </div>
+
+          <div class="ach-badge">
+            <img
+              src="../assets/img/achievements-badges/clutch_2.png"
+              alt=""
+              width="250"
+              height="220"
+            />
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <section class="footer-container">
+        <div class="links-conatiner">
+          <img src="../assets/img/phi_logo.webp" alt="" width="200" />
+        </div>
+
+        <div class="links-conatiner">
+          <ul class="list-foolter">
+            <h3 class="list-heading">Services</h3>
+            <li>Sales Consulting</li>
+            <li>Customer Experience Consulting</li>
+            <li>Buisness Consulting</li>
+            <li>Financial Consulting</li>
+            <li>HR & Recruitment Consulting</li>
+          </ul>
+        </div>
+
+        <div class="links-conatiner spacing-under">
+          <ul class="list-foolter">
+            <h3 class="list-heading">Menu</h3>
+            <li>Showcase</li>
+            <li>Contact us</li>
+            <li>Blog</li>
+            <li>About us</li>
+            <li>Careers</li>
+          </ul>
+        </div>
+
+        <div class="links-conatiner">
+          <ul class="list-foolter">
+            <!-- <h3 class="list-heading">Menu</h3> -->
+            <li class="list-bold">
+              <span
+                ><img
+                  src="./assets/img/icons-footer/pin.png"
+                  alt=""
+                  width="20"
+                  class="spacing" /></span
+              >2nd Floor, North Side, Gulberg Empire Plaza, Plot 33-40 Civic
+              Center, Gulberg Greens, IBCEHS, Islamabad, 44000.
+            </li>
+            <li class="list-bold">
+              <span
+                ><img
+                  src="./assets/img/icons-footer/phone-call.png"
+                  alt=""
+                  width="20"
+                  class="spacing" /></span
+              >051 2746031
+            </li>
+            <li class="list-bold">
+              <span
+                ><img
+                  src="./assets/img/icons-footer/email.png"
+                  alt=""
+                  width="20"
+                  class="spacing" /></span
+              >info@phi.consulting
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="links-section">
+        <div class="link-row">
+          <img src="../assets/img/socil-media/facebook.png" alt="" width="50" />
+        </div>
+        <div class="link-row">
+          <img
+            src="../assets/img/socil-media/instagram.png"
+            alt=""
+            width="60"
+          />
+        </div>
+        <div class="link-row">
+          <img src="../assets/img/socil-media/linkedin.png" alt="" width="50" />
+        </div>
+        <div class="link-row">
+          <img src="../assets/img/socil-media/twitter.png" alt="" width="50" />
+        </div>
+        <div class="link-row">
+          <img src="../assets/img/socil-media/youtube.png" alt="" width="50" />
+        </div>
+      </section>
+      <section class="allrights">
+        <p class="rights">
+          Privacy Policy | Terms of Service | © 2023 Phi Consulting. All rights
+          reserved.
+        </p>
+      </section>
+    </footer>
+    <script src="../assets/js/script.js"></script>
+  </body>
+</html>

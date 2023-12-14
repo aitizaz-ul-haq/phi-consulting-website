@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="ATZ" />
+    <meta name="description" conatent="phi consulting buisness consulting" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | Phi Consulting</title>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+    <link
+      rel="shortcut icon"
+      href="../assets/img/phi_logo.webp"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Homepage -->
+
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <a href="../index.html"
+          ><img class="logo-image" src="../assets/img/phi_logo.webp" alt="Logo"
+        /></a>
+      </div>
+      <div class="buttons">
+        <div class="dropdown">
+          <a href="../main_pages/services.html" class="dropdown-btn"
+            ><span class="dropdown-btn">Services</span></a
+          >
+          <div class="dropdown-content">
+            <a href="../sub_pages/sales_consulting.html">Sales Consulting</a>
+            <a href="../sub_pages/buisness_consulting.html"
+              >Buisness Consulting</a
+            >
+            <a href="../sub_pages/financial_consulting.html"
+              >Financial Consulting</a
+            >
+            <a href="../sub_pages/hr_and_recruitment_consulting.html"
+              >HR & Recruitment Consulting</a
+            >
+            <a href="../sub_pages/customer_experience_consulting.html"
+              >Customer Experience Consulting</a
+            >
+          </div>
+        </div>
+        <span
+          ><a href="../main_pages/our_work.html" class="inner-header"
+            >Our Work</a
+          ></span
+        >
+        <span
+          ><a href="../main_pages/about_us.html" class="inner-header"
+            >About Us</a
+          ></span
+        >
+        <span
+          ><a href="../main_pages/blog.html" class="inner-header">Blog</a></span
+        >
+        <span
+          ><a href="../main_pages/careers.html" class="inner-header"
+            >Careers</a
+          ></span
+        >
+      </div>
+      <div class="right-button-header">
+        <span
+          ><a href="../main_pages/contacts.html" class="inner-header"
+            >Contact Us</a
+          ></span
+        >
+      </div>
+    </header>
+
+    <header class="mobile-header">
+      <div class="logo">
+        <img
+          src="../assets/img/phi_logo-filled.png"
+          alt=""
+          width="55"
+          height="55"
+        />
+      </div>
+      <button class="menu-toggle" onclick="toggleMenu()">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      </button>
+      <div class="overlay-rock" id="overlay-rock" onclick="closeMenu()"></div>
+      <nav class="mobile-menu" id="mobile-menu">
+        <ul>
+          <li>
+            <a
+              href="../index.html"
+              class="header-mobile-links"
+              onclick="closeMenu()"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="../main_pages/our_work.html"
+              class="header-mobile-links"
+              onclick="closeMenu()"
+              >Our Work</a
+            >
+          </li>
+          <li>
+            <a
+              href="../main_pages/services.html"
+              class="header-mobile-links"
+              onclick="closeMenu()"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="../main_pages/about_us.html"
+              class="header-mobile-links"
+              onclick="closeMenu()"
+              >About Us</a
+            >
+          </li>
+          <li>
+            <a
+              href="../main_pages/blog.html"
+              class="header-mobile-links"
+              onclick="closeMenu()"
+              >Blogs</a
+            >
+          </li>
+          <li>
+            <a
+              href="../main_pages/careers.html"
+              class="header-mobile-links"
+              onclick="closeMenu()"
+              >Careers</a
+            >
+          </li>
+          <li>
+            <a
+              href="../main_pages/contacts.html"
+              class="header-mobile-links"
+              onclick="closeMenu()"
+              >Contact us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Hero Section -->
+      <article class="hero">
+        <section class="hero-container-blog">
+          <div class="hero-content-blog">
+            <h2 class="hero-heading-blog">Explore the Phi Consulting Blog</h2>
+            <p class="hero-desc-blog">
+              Welcome to a reservoir of knowledge and expertise! Dive into the
+              Phi Consulting Blog, where we unravel the intricacies of Sales,
+              Customer Experience, Finance, Business, and HR & Recruitment
+              Consulting. Gain valuable insights, stay updated on industry
+              trends, and discover strategies to elevate your business to new
+              heights.
+            </p>
+            <div class="consult-button-blog">Schedule a Free Consultation</div>
+          </div>
+        </section>
+      </article>
+
+      <!-- Blog-Section -->
+      <article class="bloged">
+        <section class="bloged-container">
+          <h2 class="bloged-heading">Blogs</h2>
+          <div class="bloged-box-container">
+            <div class="bloged-box">
+              <div class="bloged-banner-container">
+                <img src="../assets/img/bi.jpg" alt="" width="375" />
+              </div>
+              <h3 class="bloged-title">hello world</h3>
+              <p class="bloged-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
+                illo sit exercitationem dolorem officiis quibusdam numquam
+                autem, quasi mollitia ab obcaecati rem aperiam delectus in,
+                voluptatum quae, placeat pariatur nobis.
+              </p>
+            </div>
+            <div class="bloged-box">
+              <div class="bloged-banner-container">
+                <img src="../assets/img/bi.jpg" alt="" width="375" />
+              </div>
+              <h3 class="bloged-title">hello world</h3>
+              <p class="bloged-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
+                illo sit exercitationem dolorem officiis quibusdam numquam
+                autem, quasi mollitia ab obcaecati rem aperiam delectus in,
+                voluptatum quae, placeat pariatur nobis.
+              </p>
+            </div>
+            <div class="bloged-box">
+              <div class="bloged-banner-container">
+                <img src="../assets/img/bi.jpg" alt="" width="375" />
+              </div>
+              <h3 class="bloged-title">hello world</h3>
+              <p class="bloged-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
+                illo sit exercitationem dolorem officiis quibusdam numquam
+                autem, quasi mollitia ab obcaecati rem aperiam delectus in,
+                voluptatum quae, placeat pariatur nobis.
+              </p>
+            </div>
+            <div class="bloged-box">
+              <div class="bloged-banner-container">
+                <img src="../assets/img/bi.jpg" alt="" width="375" />
+              </div>
+              <h3 class="bloged-title">hello world</h3>
+              <p class="bloged-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
+                illo sit exercitationem dolorem officiis quibusdam numquam
+                autem, quasi mollitia ab obcaecati rem aperiam delectus in,
+                voluptatum quae, placeat pariatur nobis.
+              </p>
+            </div>
+            <div class="bloged-box">
+              <div class="bloged-banner-container">
+                <img src="../assets/img/bi.jpg" alt="" width="375" />
+              </div>
+              <h3 class="bloged-title">hello world</h3>
+              <p class="bloged-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
+                illo sit exercitationem dolorem officiis quibusdam numquam
+                autem, quasi mollitia ab obcaecati rem aperiam delectus in,
+                voluptatum quae, placeat pariatur nobis.
+              </p>
+            </div>
+            <div class="bloged-box">
+              <div class="bloged-banner-container">
+                <img src="../assets/img/bi.jpg" alt="" width="375" />
+              </div>
+              <h3 class="bloged-title">hello world</h3>
+              <p class="bloged-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
+                illo sit exercitationem dolorem officiis quibusdam numquam
+                autem, quasi mollitia ab obcaecati rem aperiam delectus in,
+                voluptatum quae, placeat pariatur nobis.
+              </p>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <!-- Call to Action Section -->
+      <article class="cta-container">
+        <section class="cta-sections-container">
+          <div class="cta-content">
+            <div class="cta-heading">Ready to Scale Your Buisness</div>
+            <div class="cta-descrip">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
+              repellendus et nobis dolorem repudiandae assumenda magnam
+              voluptatibus eum incidunt, aliquam ipsum rerum repellat. Sint amet
+              earum in a temporibus laborum. Dolores cumque ex nesciunt iusto
+              qui, recusandae quae. Eos corrupti excepturi mollitia amet
+              officiis optio, aliquam saepe pariatur iure. Corporis saepe,
+              blanditiis fugiat dignissimos suscipit beatae minima nostrum eaque
+              amet.
+            </div>
+          </div>
+          <div class="cta-button-section">
+            <div class="right-button-header">
+              <span
+                ><a href="../main_pages/contacts.html" class="inner-header"
+                  >Contact Us</a
+                ></span
+              >
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <section class="footer-container">
+        <div class="links-conatiner">
+          <img src="../assets/img/phi_logo.webp" alt="" width="200" />
+        </div>
+
+        <div class="links-conatiner">
+          <ul class="list-foolter">
+            <h3 class="list-heading">Services</h3>
+            <li>
+              <a href="../sub_pages/sales_consulting.html" class="footer-links"
+                >Sales Consulting</a
+              >
+            </li>
+            <li>
+              <a
+                href="../sub_pages/customer_experience_consulting.html"
+                class="footer-links"
+                >Customer Experience</a
+              >
+            </li>
+            <li>
+              <a
+                href="../sub_pages/buisness_consulting.html"
+                class="footer-links"
+                >Buisness Consulting</a
+              >
+            </li>
+            <li>
+              <a
+                href="../sub_pages/financial_consulting.html"
+                class="footer-links"
+                >Financial Consulting</a
+              >
+            </li>
+            <li>
+              <a
+                href="../sub_pages/hr_and_recruitment_consulting.html"
+                class="footer-links"
+                >HR & Recruitment Consulting</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="links-conatiner spacing-under">
+          <ul class="list-foolter">
+            <h3 class="list-heading">Menu</h3>
+            <li>Showcase</li>
+            <li>Contact us</li>
+            <li>Blog</li>
+            <li>About us</li>
+            <li>Careers</li>
+          </ul>
+        </div>
+
+        <div class="links-conatiner">
+          <ul class="list-foolter">
+            <!-- <h3 class="list-heading">Menu</h3> -->
+            <li class="list-bold">
+              <span
+                ><img
+                  src="../assets/img/icons-footer/pin.png"
+                  alt=""
+                  width="20"
+                  class="spacing" /></span
+              >2nd Floor, North Side, Gulberg Empire Plaza, Plot 33-40 Civic
+              Center, Gulberg Greens, IBCEHS, Islamabad, 44000.
+            </li>
+            <li class="list-bold">
+              <span
+                ><img
+                  src="../assets/img/icons-footer/phone-call.png"
+                  alt=""
+                  width="20"
+                  class="spacing" /></span
+              >051 2746031
+            </li>
+            <li class="list-bold">
+              <span
+                ><img
+                  src="../assets/img/icons-footer/email.png"
+                  alt=""
+                  width="20"
+                  class="spacing" /></span
+              >info@phi.consulting
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="links-section">
+        <div class="link-row">
+          <img src="../assets/img/socil-media/facebook.png" alt="" width="50" />
+        </div>
+        <div class="link-row">
+          <img
+            src="../assets/img/socil-media/instagram.png"
+            alt=""
+            width="60"
+          />
+        </div>
+        <div class="link-row">
+          <img src="../assets/img/socil-media/linkedin.png" alt="" width="50" />
+        </div>
+        <div class="link-row">
+          <img src="../assets/img/socil-media/twitter.png" alt="" width="50" />
+        </div>
+        <div class="link-row">
+          <img src="../assets/img/socil-media/youtube.png" alt="" width="50" />
+        </div>
+      </section>
+      <section class="allrights">
+        <p class="rights">
+          Privacy Policy | Terms of Service | © 2023 Phi Consulting. All rights
+          reserved.
+        </p>
+      </section>
+    </footer>
+    <script src="../assets/js/script.js"></script>
+  </body>
+</html>
