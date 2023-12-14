@@ -119,25 +119,25 @@ header {
     left: 0;
     background: var(--LIGHTER-DARK-PHI-BLUE);
     color: white;
-    padding: 20px;
+    /* padding: 20px; */
     box-sizing: border-box;
     z-index: 1000;
     width: 100%;
-    /* height: 90%; */
+    height: 110vh;
   }
   
   .mobile-menu ul {
     list-style: none;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    /* padding-top: 6rem;
+    padding-bottom: 6rem; */
     margin: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    text-align: center;
   }
   
   .mobile-menu li {
@@ -147,7 +147,7 @@ header {
   .header-mobile-links {
     color: white;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 18px;
     font-family: var(--FF-PHI);
   }
   
@@ -173,7 +173,10 @@ header {
     z-index: 999;
   }
 
-
+.dropdown-menu-mobile {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
  
 .logo {
     order: 1;
@@ -4542,6 +4545,7 @@ width: 90%;
 
 .hero-heading-services-page {
     font-size: 20px;
+    margin-top: 100px;
 }
 
 
@@ -4707,6 +4711,7 @@ display: none;
 
  .hero-heading-bui-consul { 
     font-size: 20px;
+    margin-top: 100px;
 }
 .hero-desc-bui-consul { 
     font-size: 13px;
@@ -4728,6 +4733,7 @@ display: none;
 
  .hero-heading-sales { 
     font-size: 20px;
+    margin-top: 100px;
 }
 .hero-desc-sales { 
     font-size: 13px;
@@ -4750,6 +4756,7 @@ display: none;
 
  .hero-heading-hr-consul { 
     font-size: 20px;
+    margin-top: 100px;
 }
 .hero-desc-hr-consul { 
     font-size: 13px;
@@ -4772,6 +4779,7 @@ display: none;
 
  .hero-heading-fin-consul { 
     font-size: 20px;
+    margin-top: 100px;
 }
 .hero-desc-fin-consul { 
     font-size: 13px;
@@ -4793,6 +4801,7 @@ display: none;
 
  .hero-heading-exp { 
     font-size: 20px;
+    margin-top: 100px;
 }
 .hero-desc-exp { 
     font-size: 13px;
@@ -4814,6 +4823,7 @@ display: none;
 
  .hero-heading-our-work { 
     font-size: 20px;
+    margin-top: 100px;
 }
 
 .hero-desc-our-work br{ 
@@ -4876,6 +4886,7 @@ display: none;
 
  .hero-heading-phi-about { 
     font-size: 20px;
+    margin-top: 100px;
 }
 
 .hero-desc-phi-about br{ 
@@ -5070,6 +5081,7 @@ display: none;
 
  .hero-heading-blog { 
     font-size: 20px;
+    margin-top: 100px;
 }
 
 .hero-desc-blog br{ 
@@ -5107,6 +5119,7 @@ display: none;
 
  .hero-heading-careers { 
     font-size: 20px;
+    margin-top: 100px;
 }
 
 .hero-desc-careers br{ 
@@ -5223,6 +5236,7 @@ display: none;
 
  .hero-heading-phi-contact { 
     font-size: 20px;
+    margin-top: 100px;
 }
 
 .hero-desc-phi-contact br{ 
