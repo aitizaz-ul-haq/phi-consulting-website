@@ -4236,6 +4236,10 @@ align-items: center;
     padding-right:20px;
 }
 
+.button-readmore {
+    margin-top: 2rem;
+}
+
 @media screen and (min-width: 320px) {
     header {
         display: none;
@@ -4401,7 +4405,7 @@ align-items: center;
     
         .cta-button-section { 
             height: 70px;
-            width:43%
+            width:74%
         }
 
         .cta-content {
@@ -6858,6 +6862,15 @@ display: none;
     margin-left: 64px;
  }
 
+ .ach-heading-sales {
+    font-size: 18px;
+}
+
+.ach-desc-sales { 
+    font-size: 13px;
+    width: 95%;
+}
+
  /* =============================================hr consulting====================== */
 
  .consult-button-hr-consul {
@@ -9245,6 +9258,7 @@ display: none;
 }
 }
 @media screen and (min-width: 1200px) {
+   
     .hero-heading{
         font-weight: 800;
         font-size: 56px;
@@ -9356,16 +9370,16 @@ display: none;
 .hero-heading-services-page {
     text-align: left; 
     margin: 0;
-    width: 80%;
+    width: 94%;
     padding: 1rem;
     font-size: 56px;
 }
 
 .hero-content-services-page {
-    width: 620px;
+    width: 820px;
     margin: 90px; 
     text-align: left;
-    margin: 0px;
+    margin: 47px;
  }
 
  .hero-desc-services-page br{
@@ -9383,6 +9397,7 @@ display: none;
 
  .consult-button-services-page { 
     margin-left:14px;
+    margin-top: 14px;
  }
 
  .strategic-heading {
@@ -9431,10 +9446,10 @@ display: none;
 }
 
 .hero-content-sales {
-    width: 620px;
+    width: 820px;
     margin: 90px; 
     text-align: left;
-    margin: 0px;
+    margin: 47px;
  }
 
  .hero-desc-salesl br{
@@ -9453,6 +9468,7 @@ display: none;
 
  .consult-button-sales { 
     margin-left:14px;
+    margin-top: 14px;
  }
 
  .insights-bundle {
@@ -9555,10 +9571,10 @@ display: none;
 }
 
 .hero-content-bui-consul {
-    width: 620px;
+    width: 820px;
     margin: 90px; 
     text-align: left;
-    margin: 0px;
+    margin: 47px;
  }
 
  .hero-desc-bui-consul br{
@@ -9577,22 +9593,23 @@ display: none;
 
  .consult-button-bui-consul { 
     margin-left:14px;
+    margin-top: 14px;
  }
 
  /* ===========================================hr consulting page============== */
  .hero-heading-hr-consul {
     text-align: left; 
     margin: 0;
-    width: 80%;
+    width: 100%;
     padding: 1rem;
     font-size: 56px;
 }
 
 .hero-content-hr-consul {
-    width: 620px;
+    width: 820px;
     margin: 90px; 
     text-align: left;
-    margin: 0px;
+    margin: 47px;
  }
 
  .hero-desc-hr-consul br{
@@ -9611,22 +9628,23 @@ display: none;
 
  .consult-button-hr-consul { 
     margin-left:14px;
+    margin-top: 14px;
  }
 
  /* =================================financial consulting============== */
  .hero-heading-fin-consul {
     text-align: left; 
     margin: 0;
-    width: 80%;
+    width: 100%;
     padding: 1rem;
     font-size: 56px;
 }
 
 .hero-content-fin-consul {
-    width: 620px;
+    width: 820px;
     margin: 90px; 
     text-align: left;
-    margin: 0px;
+    margin: 47px;
  }
 
  .hero-desc-fin-consul br{
@@ -9645,6 +9663,7 @@ display: none;
 
  .consult-button-fin-consul { 
     margin-left:14px;
+    margin-top: 14px;
  }
 
  /* =======================================exp consulting====================== */
@@ -9658,10 +9677,10 @@ display: none;
 }
 
 .hero-content-exp {
-    width: 620px;
+    width: 820px;
     margin: 90px; 
     text-align: left;
-    margin: 0px;
+    margin: 47px;
  }
 
  .hero-desc-exp br{
@@ -9680,6 +9699,7 @@ display: none;
 
  .consult-button-exp { 
     margin-left:14px;
+    margin-top: 14px;
  }
 
  /* =================================our work page============================= */
@@ -9692,10 +9712,10 @@ display: none;
 }
 
 .hero-content-our-work {
-    width: 620px;
+    width: 820px;
     margin: 90px; 
     text-align: left;
-    margin: 0px;
+    margin: 47px;
  }
 
  .hero-desc-our-work br{
@@ -9714,6 +9734,7 @@ display: none;
 
  .consult-button-our-work { 
     margin-left:14px;
+    margin-top: 14px;
  }
 
  .full-section-insights-our-work {
@@ -9761,14 +9782,14 @@ display: none;
 }
 
 .hero-content-phi-about {
-    width: 620px;
+    width: 820px;
     margin: 90px; 
     text-align: left;
-    margin: 0px;
+    margin: 47px;
  }
 
  .hero-desc-phi-about br{
-display: none;
+display: block;
  }
 
  .hero-desc-phi-about { 
@@ -9783,6 +9804,7 @@ display: none;
 
  .consult-button-phi-about { 
     margin-left:14px;
+    margin-top: 14px;
  }
 
  .pics-lane {
@@ -9983,10 +10005,10 @@ display: block;
 }
 
 .hero-content-blog {
-    width: 620px;
+    width: 820px;
     margin: 90px; 
     text-align: left;
-    margin: 0px;
+    margin: 47px;
  }
 
  .hero-desc-blog br{
@@ -10005,6 +10027,7 @@ display: none;
 
  .consult-button-blog { 
     margin-left:14px;
+    margin-top: 14px;
  }
 
  .bloged-box-container {
@@ -10026,10 +10049,10 @@ display: none;
 }
 
 .hero-content-careers {
-    width: 620px;
+    width: 820px;
     margin: 90px; 
     text-align: left;
-    margin: 0px;
+    margin: 47px;
  }
 
  .hero-desc-careers br{
@@ -10048,6 +10071,7 @@ display: none;
 
  .consult-button-careers { 
     margin-left:14px;
+    margin-top: 14px;
  }
 
  .culture-desc {
