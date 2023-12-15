@@ -6854,6 +6854,10 @@ display: none;
     padding: 1rem;
  }
 
+ .consult-button-sales { 
+    margin-left: 64px;
+ }
+
  /* =============================================hr consulting====================== */
 
  .consult-button-hr-consul {
