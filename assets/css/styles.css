@@ -1616,6 +1616,8 @@ padding: 1rem;
     color: var(--DARK-PHI-BLUE);
 }
 
+
+
 .testi-quote {
     text-align: center;
     font-family: var(--FF-PHI);
@@ -7008,9 +7010,9 @@ width : 127%;
 height : auto;
 }
 .value-bubble {
-margin : 0;
-width : 286px;
-height : 361px;
+    margin: 0;
+    width: 577px;
+    height: 245px;
 }
 .services-desc {
 width : 90%;
