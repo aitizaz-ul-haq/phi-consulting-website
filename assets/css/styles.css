@@ -9316,10 +9316,10 @@ display: none;
      height : auto;
     }
 
-   .value-bubble {
-    margin : 10px;
-    width: 500px;
-    height: 247px;
+    .value-bubble {
+        margin: 0px;
+        width: 592px;
+        height: 247px;
     }
 
     .call-container { 
