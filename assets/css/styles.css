@@ -54,10 +54,6 @@
     border-radius: 6px;
 }
 
-
-
-
-
 body,html {
     margin: 0;
     height: 100%;
@@ -4434,6 +4430,10 @@ align-items: center;
         .cta-content {
             padding: 9px;
             text-align: center;
+        }
+
+        .services-tab-invisible {
+            width: 96%;
         }
 
         
