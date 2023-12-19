@@ -9732,6 +9732,17 @@ display: none;
         display: block;
     }
 
+    .ach-heading-bui {
+        font-size: 32px;
+        margin-bottom: 3rem;
+        width: 94%;
+    }
+
+    .ach-desc-bui {
+        font-size: 18px;
+        width: 94%;
+    }
+
  /* =================================Services Page===================== */
 .hero-container-services {
     justify-content: left;
@@ -9834,7 +9845,7 @@ display: none;
 
 .path-heading {
     font-size: 32px;
-    margin-top: 0px;
+    margin-top: 4rem;
     margin-bottom: 20px;
 }
 
@@ -9850,7 +9861,8 @@ display: none;
 }
 
 .ach-heading-services-page {
-    font-size: 23px;
+    font-size: 32px;
+    margin-bottom: 22px;
 }
 
 .ach-desc-services-page br {
@@ -9986,6 +9998,16 @@ display: none;
     font-size: var(--FS-MINI-HEADING);
     font-weight: var(--FONT-THICK);
     text-align: left;
+}
+
+.ach-heading-sales {
+    font-size: 32px;
+    margin-bottom: 2rem;
+}
+
+.ach-desc-sales {
+    font-size: 18px;
+    width: 95%;
 }
 /* =========================================buisness consul==================== */
 .hero-heading-bui-consul {
@@ -10189,8 +10211,9 @@ display: none;
 }
 
 .ach-heading-our-work {
-    font-size: 35px;
-    width: 94%;
+    font-size: 32px;
+    margin-bottom: 3rem;
+    width: 94%
 }
 
 .ach-desc-our-work {
