@@ -9615,7 +9615,7 @@ display: none;
     }
 
     .work-heading { 
-        margin-top: 2rem;
+        margin-top: 6rem;
         font-size: 32px;
     }
 
@@ -9713,7 +9713,7 @@ display: none;
 
  .strategic-heading {
     font-family: var(--FF-PHI);
-    font-size: 20px;
+    font-size: 32px;
     font-weight: var(--FONT-THICKER);
     margin-top: 30px;
     color: var(--DARK-PHI-BLUE);
@@ -9739,13 +9739,14 @@ display: none;
 }
 
 .path-heading {
-    font-size: 20px;
+    font-size: 32px;
     margin-top: 0px;
     margin-bottom: 20px;
 }
 
 .work-desc {
     width: 70%;
+    margin-top: 1rem;
     margin-bottom: 4rem;
 }
 
