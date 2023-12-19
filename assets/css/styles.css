@@ -9722,8 +9722,6 @@ display: none;
         margin-bottom: 2rem;
     }
 
-    
-
     .path {
         display: none;
     }
@@ -10205,9 +10203,15 @@ display: none;
     width: 94%;
 }
 
-.why-phi-desc {
+/* .why-phi-desc {
     font-size: 18px;
     width: 94%;
+} */
+
+.why-phi-desc {
+    font-size: 18px;
+    width: 61%;
+    margin-top: 3rem;
 }
 
 .ach-heading-our-work {
