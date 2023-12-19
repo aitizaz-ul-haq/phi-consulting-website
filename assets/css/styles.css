@@ -985,6 +985,17 @@ header {
 
 .image-container {
     background-color: var(--WHITE-TEXT);
+    margin: 2rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container-bottom {
+    background-color: var(--WHITE-TEXT);
     margin: 1rem;
     border-radius: 15px;
     display: flex;
@@ -4321,6 +4332,18 @@ align-items: center;
             height: auto;
         }
 
+        .new-values {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .graph-biz {
+            width: 100%;
+            height: auto;
+        }
+
         .value-heading {
             font-size: 18px;
         }
@@ -4348,6 +4371,10 @@ align-items: center;
         .value-bubble:hover {
             transform: none;
         }
+
+        .services-container {
+            padding-top: 2rem;
+        }
         
 
         .services-heading {
@@ -4372,6 +4399,7 @@ align-items: center;
 
         .work-heading {
             font-size: 18px;
+            margin-top: 1rem;
         }
 
         .work-desc {
@@ -4384,8 +4412,14 @@ align-items: center;
         }
 
         .section-left {
-            padding: 1.5rem;
-            width: 80%;
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 0;
+            padding-bottom: 7rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
         }
 
         .section-right {
@@ -4393,7 +4427,7 @@ align-items: center;
         }
 
         .study-desc {
-            width: 134%;
+            width: 96%;
         } 
 
         .case-button-more { 
@@ -4537,6 +4571,11 @@ width: 90%;
 
 .links-conatiner { 
     width: 200px;
+}
+
+.button-readmore {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* =================================Services Page===================== */
@@ -5911,7 +5950,7 @@ display : none;
 }
 .hero-content {
 text-align : center;
-margin : 47px;
+margin : 25px;
 }
 .line-top {
 font-size : 17px;
@@ -6980,6 +7019,7 @@ display : none;
 }
 .hero-container {
 text-align : center;
+justify-content: center;
 }
 .line-top {
 font-size : 16px;
@@ -7962,20 +8002,26 @@ display: none;
         text-align: left;
     }
 
+    .hero-container {
+        text-align: left;
+        justify-content: left;
+    }
+
     .hero-content {
-       text-align: left; 
-     }
+        padding-top: 4rem;
+        text-align: left;
+    }
    
      .hero-heading {
     text-align: left; 
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     
     } 
 
     .hero-desc { 
         text-align: left;
-        margin-top: 2rem;
+        margin-top: 1rem;
     margin-bottom: 2rem;
     }
 
@@ -9284,7 +9330,7 @@ display: none;
    
     .hero-heading{
         font-weight: 800;
-        font-size: 56px;
+        font-size: 40px;
         margin-bottom: 0;
         color: var(--WHITE-TEXT);
         margin-top: 22px;
@@ -9292,7 +9338,7 @@ display: none;
 
     .hero-desc {
         font-weight: var(--FONT-THICKY);
-        font-size: 20px;
+        font-size: 16px;
         margin-top: 10px;
         margin-bottom: 60px; 
         color: var(--WHITE-TEXT);
@@ -9302,6 +9348,11 @@ display: none;
     .hero-container { 
        height: 100vh;
      }
+
+     .hero-content {
+        padding-top:9rem;
+        text-align: left;
+    }
 
     .image-container {
         width: 115%;
@@ -9359,7 +9410,7 @@ display: none;
 
    
     .services-tab {
-        width: 30%;
+        width: 16%;
         height: 218px;
         display: flex;
         flex-direction: column;
@@ -9388,6 +9439,64 @@ display: none;
         width: 85px;
         height: auto;
     }
+
+    .new-values {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 3rem;
+        margin-bottom: 0;
+    }
+
+    .new-value-left-section {
+        width: 50%;
+        /* background-color: #00BCD4; */
+        color: #081739;
+    }
+
+    .value-heading {
+        font-size: 32px;
+    }
+
+    .new-value-right-section {
+        width: 50%;
+        /* background-color: lightblue; */
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .graph-biz {
+        width: 50%;
+        height: auto;
+    }
+
+    .services-heading {
+        font-size: 32px;
+    }
+
+    .work-heading { 
+        margin-top: 2rem;
+        font-size: 32px;
+    }
+
+    .testi-heading {
+        font-size: 32px;
+    }
+
+    .blog-title {
+        font-size: 32px;
+    }
+
+    .button-readmore {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
 
  /* =================================Services Page===================== */
 .hero-container-services {
