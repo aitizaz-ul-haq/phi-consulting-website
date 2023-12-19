@@ -1154,6 +1154,8 @@ width: 60%;
 .statement {
     margin-top: 4rem;
     margin-bottom: 4rem;
+    border-left: 4px solid var(--LIGHT-PHI-BLUE);
+    padding-left: 10px;
 }
 
 .how-we-top-line {
