@@ -4952,6 +4952,7 @@ display: none;
 
 .card-service-show { 
     width: 100%;
+    cursor: pointer;
 }
 
 .path-heading { 
