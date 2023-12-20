@@ -4782,6 +4782,15 @@ width: 90%;
     margin-bottom: 2rem;
 }
 
+.list-heading {
+    margin-left: 57px;
+}
+
+.list-foolter li{
+    margin-top: 5px;
+    text-align: center;
+}
+
 /* =================================Services Page===================== */
 
 .work-row { 
@@ -7387,6 +7396,15 @@ flex-direction : column;
 padding : 3rem;
 width : 576px;
 }
+
+.list-heading {
+    margin-left: 199px;
+}
+
+.list-foolter li{
+    margin-top: 5px;
+    text-align: center;
+}
 /* =================================Services Page===================== */
 
 .work-row { 
@@ -8447,6 +8465,15 @@ display: none;
     }
     .how-work {
         display: none;
+    }
+
+    .list-heading {
+        margin-left: 0px;
+    }
+    
+    .list-foolter li{
+        margin-top: 3px;
+        text-align: left;
     }
     /* =================================Services Page===================== */
 .hero-container-services {
