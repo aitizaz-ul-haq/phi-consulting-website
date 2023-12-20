@@ -4608,7 +4608,34 @@ align-items: center;
         }
 
         .how-work {
-            display: none;
+            display: block;
+        }
+
+        .how-work-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+        }
+
+        .how-work-section-left {
+            /* background-color: #00BCD4; */
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            width: 89%;
+        }
+
+        .how-we-work-heading {
+            font-size: 42px;
+            text-align: center;
+        }
+
+        .description-how-we {
+            font-size: 19px;
+            font-family: var(--FF-PHI);
+            color: var(--LIGHTER-DARK-PHI-BLUE);
+            width: 100%;
         }
 
         .casestudy-img {
@@ -5639,7 +5666,34 @@ display: none;
         }
         
         .how-work {
-            display: none;
+            display: block;
+        }
+
+        .how-work-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+        }
+
+        .how-work-section-left {
+            /* background-color: #00BCD4; */
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            width: 89%;
+        }
+
+        .how-we-work-heading {
+            font-size: 42px;
+            text-align: center;
+        }
+
+        .description-how-we {
+            font-size: 19px;
+            font-family: var(--FF-PHI);
+            color: var(--LIGHTER-DARK-PHI-BLUE);
+            width: 100%;
         }
 
         .services-heading {
@@ -6251,7 +6305,39 @@ width : 90%;
 font-size : 15px;
 }
 .how-work {
-    display: none;
+    display: block;
+}
+
+.how-we-top-line {
+    
+    padding-left: 27px;
+}
+
+.how-work-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.how-work-section-left {
+    /* background-color: #00BCD4; */
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 89%;
+}
+
+.how-we-work-heading {
+    font-size: 42px;
+    text-align: center;
+}
+
+.description-how-we {
+    font-size: 19px;
+    font-family: var(--FF-PHI);
+    color: var(--LIGHTER-DARK-PHI-BLUE);
+    width: 100%;
 }
 .section-right {
 display : none;
@@ -7387,7 +7473,39 @@ width : 70%;
 width : 70%;
 }
 .how-work {
-    display: none;
+    display: block;
+}
+
+.how-we-top-line {
+    
+    padding-left: 111px;
+}
+
+.how-work-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.how-work-section-left {
+    /* background-color: #00BCD4; */
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 89%;
+}
+
+.how-we-work-heading {
+    font-size: 42px;
+    text-align: center;
+}
+
+.description-how-we {
+    font-size: 19px;
+    font-family: var(--FF-PHI);
+    color: var(--LIGHTER-DARK-PHI-BLUE);
+    width: 100%;
 }
 .footer-container {
 flex-direction : column;
@@ -7809,7 +7927,39 @@ width : 40%;
 width : 40%;
 }
 .how-work {
-    display: none;
+    display: block;
+}
+
+.how-we-top-line {
+    
+    padding-left: 2px;
+}
+
+.how-work-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.how-work-section-left {
+    /* background-color: #00BCD4; */
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 89%;
+}
+
+.how-we-work-heading {
+    font-size: 42px;
+    text-align: center;
+}
+
+.description-how-we {
+    font-size: 19px;
+    font-family: var(--FF-PHI);
+    color: var(--LIGHTER-DARK-PHI-BLUE);
+    width: 100%;
 }
 /* =================================Services Page===================== */
 .hero-container-services {
@@ -8464,7 +8614,39 @@ display: none;
         padding: 0.5rem;
     }
     .how-work {
-        display: none;
+        display: block;
+    }
+    
+    .how-we-top-line {
+        
+        padding-left: 275px;
+    }
+    
+    .how-work-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    
+    .how-work-section-left {
+        /* background-color: #00BCD4; */
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        width: 89%;
+    }
+    
+    .how-we-work-heading {
+        font-size: 42px;
+        text-align: center;
+    }
+    
+    .description-how-we {
+        font-size: 19px;
+        font-family: var(--FF-PHI);
+        color: var(--LIGHTER-DARK-PHI-BLUE);
+        width: 100%;
     }
 
     .list-heading {
@@ -9340,9 +9522,40 @@ display: none;
     }
 
     .how-work {
-        display: none;
+        display: block;
     }
-
+    
+    .how-we-top-line {
+        
+        padding-left: 300px;
+    }
+    
+    .how-work-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    
+    .how-work-section-left {
+        /* background-color: #00BCD4; */
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        width: 89%;
+    }
+    
+    .how-we-work-heading {
+        font-size: 42px;
+        text-align: center;
+    }
+    
+    .description-how-we {
+        font-size: 19px;
+        font-family: var(--FF-PHI);
+        color: var(--LIGHTER-DARK-PHI-BLUE);
+        width: 100%;
+    }
     /* ========================================Services Page=========== */
 
     .hero-content-services-page {
@@ -9808,6 +10021,38 @@ display: none;
 
     .how-work {
         display: block;
+    }
+    
+    .how-we-top-line {
+        
+        padding-left: 0px;
+    }
+    
+    .how-work-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 50px;
+    }
+    
+    .how-work-section-left {
+        /* background-color: #00BCD4; */
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        width: 45%;
+    }
+    
+    .how-we-work-heading {
+        font-size: 42px;
+        text-align: left;
+    }
+    
+    .description-how-we {
+        font-size: 19px;
+        font-family: var(--FF-PHI);
+        color: var(--LIGHTER-DARK-PHI-BLUE);
+        width: 100%;
     }
 
     .ach-heading-bui {
