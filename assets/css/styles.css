@@ -4843,6 +4843,18 @@ width: 90%;
     text-align: center;
 }
 
+.full-banner-call {
+    color: var(--LIGHT-PHI-BLUE);
+    font-size: 30px;
+  }
+
+  .full-scale-banner { 
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
 /* =================================Services Page===================== */
 
 .work-row { 
@@ -5908,6 +5920,18 @@ width: 90%;
 .links-conatiner { 
     width: 200px;
 }
+
+.full-banner-call {
+    color: var(--LIGHT-PHI-BLUE);
+    font-size: 30px;
+  }
+
+  .full-scale-banner { 
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 
 /* =================================Services Page===================== */
 
@@ -7986,6 +8010,18 @@ width : 40%;
     color: var(--LIGHTER-DARK-PHI-BLUE);
     width: 100%;
 }
+
+.full-banner-call {
+    color: var(--LIGHT-PHI-BLUE);
+    font-size: 50px;
+  }
+
+  .full-scale-banner { 
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
 /* =================================Services Page===================== */
 .hero-container-services {
     justify-content: center;
@@ -10090,6 +10126,18 @@ display: none;
         font-size: 18px;
         width: 94%;
     }
+
+    .full-banner-call {
+        color: var(--LIGHT-PHI-BLUE);
+        font-size: 60px;
+      }
+    
+      .full-scale-banner { 
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+      }
 
  /* =================================Services Page===================== */
 .hero-container-services {
