@@ -2277,7 +2277,7 @@ padding: 1rem;
     /* height: 50vh; */
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background-color: #081739;
+    background-color: var(--LIGHTER-DARK-PHI-BLUE);
     margin-top: 8rem;
     margin-bottom: 8rem;
   }
