@@ -2272,6 +2272,31 @@ padding: 1rem;
     text-align: left;
   }
 
+  .full-scale-banner {
+    width: 100%;
+    /* height: 50vh; */
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-color: #081739;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  .banner-new-full-scale-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .full-banner-call {
+    color: var(--LIGHT-PHI-BLUE);
+    font-size: 60px;
+  }
+
+
+
 
 .path {
     background-color: var(--APPLE-GRAY);
