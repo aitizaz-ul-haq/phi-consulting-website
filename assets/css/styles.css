@@ -4511,6 +4511,11 @@ align-items: center;
     .client-content {
         width : 100%;
         }
+
+        .process-new {
+            display: none;
+        }
+
         .client-desc br {
         display : none;
         }
@@ -9720,6 +9725,10 @@ display: none;
     .button-readmore {
         margin-top: 2rem;
         margin-bottom: 2rem;
+    }
+
+    .process-new {
+        display: block;
     }
 
     .path {
