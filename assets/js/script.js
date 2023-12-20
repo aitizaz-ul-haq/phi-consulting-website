@@ -78,11 +78,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
   // Get the clickable div by its ID
+  var home = document.querySelector('.consult-button');
   var phiAbout = document.querySelector('.consult-button-phi-about');
   var phiServices = document.querySelector('.consult-button-services-page');
   var phiOurWork = document.querySelector('.consult-button-our-work');
   var phiBlog = document.querySelector('.consult-button-blog');
   var phiCareers = document.querySelector('.consult-button-careers');
+
+  if(document.title === "Phi Consulting") {
+    // Add a click event listener to the div
+    home.addEventListener('click', function() {
+     // Redirect to another page when the div is clicked
+     window.location.href = 'https://aitizaz-ul-haq.github.io/phi-consulting-website/main_pages/contacts.html'; 
+     // window.location.href = 'http://127.0.0.1:5500/main_pages/contacts.html'; 
+   });
+  }
 
   if(document.title === "About Us | Phi Consulting") {
  // Add a click event listener to the div
@@ -146,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function() {
  // Add a click event listener to the div
  hr.addEventListener('click', function() {
   // Redirect to another page when the div is clicked
-  window.location.href = 'https://aitizaz-ul-haq.github.io/phi-consulting-website/main_pages/contacts.html'; 
+  window.location.href = 'https://aitizaz-ul-haq.github.io/phi-consulting-website/sub_pages/contacts.html'; 
   // window.location.href = 'http://127.0.0.1:5500/main_pages/contacts.html'; 
 });
   }
@@ -205,7 +215,7 @@ document.addEventListener('DOMContentLoaded', function() {
  // Add a click event listener to the div
  one.addEventListener('click', function() {
   // Redirect to another page when the div is clicked
-  window.location.href = 'https://aitizaz-ul-haq.github.io/phi-consulting-website/main_pages/contacts.html'; 
+  window.location.href = 'https://aitizaz-ul-haq.github.io/phi-consulting-website/sub_pages/sales_consulting.html'; 
   // window.location.href = 'http://127.0.0.1:5500/main_pages/contacts.html'; 
 });
   }
@@ -214,7 +224,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add a click event listener to the div
     two.addEventListener('click', function() {
      // Redirect to another page when the div is clicked
-     window.location.href = 'https://aitizaz-ul-haq.github.io/phi-consulting-website/main_pages/contacts.html'; 
+     window.location.href = 'https://aitizaz-ul-haq.github.io/phi-consulting-website/main_pages/buisness_consulting.html'; 
      // window.location.href = 'http://127.0.0.1:5500/main_pages/contacts.html'; 
    });
      }
@@ -223,7 +233,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Add a click event listener to the div
       three.addEventListener('click', function() {
        // Redirect to another page when the div is clicked
-       window.location.href = 'https://aitizaz-ul-haq.github.io/phi-consulting-website/main_pages/contacts.html'; 
+       window.location.href = 'https://aitizaz-ul-haq.github.io/phi-consulting-website/main_pages/financial_consulting.html'; 
        // window.location.href = 'http://127.0.0.1:5500/main_pages/contacts.html'; 
      });
        }
@@ -232,7 +242,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Add a click event listener to the div
         four.addEventListener('click', function() {
          // Redirect to another page when the div is clicked
-         window.location.href = 'https://aitizaz-ul-haq.github.io/phi-consulting-website/main_pages/contacts.html'; 
+         window.location.href = 'https://aitizaz-ul-haq.github.io/phi-consulting-website/main_pages/hr_and_recruitment_consulting.html'; 
          // window.location.href = 'http://127.0.0.1:5500/main_pages/contacts.html'; 
        });
          }
@@ -241,7 +251,7 @@ document.addEventListener('DOMContentLoaded', function() {
           // Add a click event listener to the div
           five.addEventListener('click', function() {
            // Redirect to another page when the div is clicked
-           window.location.href = 'https://aitizaz-ul-haq.github.io/phi-consulting-website/main_pages/contacts.html'; 
+           window.location.href = 'https://aitizaz-ul-haq.github.io/phi-consulting-website/main_pages/customer_experience_consulting.html'; 
            // window.location.href = 'http://127.0.0.1:5500/main_pages/contacts.html'; 
          });
            }
